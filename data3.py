@@ -9,4 +9,18 @@ print(v1)
 
 
 #add
-a1=stock_prices.update({})
+a1=stock_prices.update({'nifty':5000})
+print(stock_prices)
+
+stock_prices['banknifty']=900
+print(stock_prices)
+
+#remove
+r1=stock_prices.pop('tsla')
+print(stock_prices)
+
+
+
+#Update
+a1=stock_prices.update({'google':6000})
+print(stock_prices)
